@@ -5,63 +5,73 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Insurance Survey</title>
+    <title>Health Insurance Survey</title>
 </head>
 <body>
     <header>
-        <h1>Developers Survey</h1>
+        <h1>Health Insurance Survey</h1>
         <p>Give us some information about you.</p>
-        <div class="survey">
-            <div class="q1">
-                <h3>How important do you consider health insurance to be?</h3>
-                <ul class="option">
-                    <li>Extremely Important</li>
-                    <li>Somewhat Important</li>
-                    <li>Neutral</li>
-                    <li>Somewhat Unimportant</li>
-                    <li>Extremely Unimportant</li>
-                </ul>
-            </div>
-            <div class="q2">
-                <h3> Do you currently have health insurance coverage?</h3>
-                <ul class="option">
-                 <li>Yes</li>
-                 <li>No</li>
-                </ul>
-            </div>
-            <div class="q3">
-                <h3>How long have you been associated with your current insurance provider?</h3>
-                <ul class="option">
-                    <li>Less than a year</li>
-                    <li>1 - 2 years</li>
-                    <li>2 - 3 years</li>
-                    <li>3 - 4 years</li>
-                    <li>More than 4 years</li>
-                </ul>
-            </div>
-            <div class="q4">
-                <h3> With your current coverage, how easy is it to file a claim?</h3>
-                <ul class="option">
-                    <li>Extremely Easy</li>
-                    <li>Somewhat Easy</li>
-                    <li>Neutral</li>
-                    <li>Somewhat Difficult</li>
-                    <li>Extremely Difficult</li>
-                </ul>
-            </div>
-            <div class="q5">
-                <h3>How satisfied are you with our customer support?</h3>
-                <ul class="option">
-                    <li>Very Satisfied</li>
-                    <li>Somewhat Satisfied</li>
-                    <li>Neutral</li>
-                    <li>Somewhat  Unsatisfied</li>
-                    <li>Extremely  Unsatisfied</li>
-                </ul>
-            </div>
-        </div>
     </header>
     
+    <div class="survey" id="survey">
+        <div class="q1">
+            <h3>How important do you consider health insurance to be?</h3>
+            <ul class="option option1">
+                <li>Extremely Important</li>
+                <li>Somewhat Important</li>
+                <li>Neutral</li>
+                <li>Somewhat Unimportant</li>
+                <li>Extremely Unimportant</li>
+            </ul>
+        </div>
+
+        <div class="q2" id="q2" style="display: none;">
+            <h3>Do you currently have health insurance coverage?</h3>
+            <ul class="option option2">
+                <li>Yes</li>
+                <li>No</li>
+            </ul>
+        </div>
+
+        <div class="q3" id="q3" style="display: none;">
+            <h3>How long have you been associated with your current insurance provider?</h3>
+            <ul class="option option3">
+                <li>Less than a year</li>
+                <li>1 - 2 years</li>
+                <li>2 - 3 years</li>
+                <li>3 - 4 years</li>
+                <li>More than 4 years</li>
+            </ul>
+        </div>
+
+        <div class="q4" id="q4" style="display: none;">
+            <h3>With your current coverage, how easy is it to file a claim?</h3>
+            <ul class="option option4">
+                <li>Extremely Easy</li>
+                <li>Somewhat Easy</li>
+                <li>Neutral</li>
+                <li>Somewhat Difficult</li>
+                <li>Extremely Difficult</li>
+            </ul>
+        </div>
+
+        <div class="q5" id="q5" style="display: none;">
+            <h3>How satisfied are you with our customer support?</h3>
+            <ul class="option option5">
+                <li>Very Satisfied</li>
+                <li>Somewhat Satisfied</li>
+                <li>Neutral</li>
+                <li>Somewhat Unsatisfied</li>
+                <li>Extremely Unsatisfied</li>
+            </ul>
+        </div>
+
+        <div class="end">
+            <h1>Thank You!</h1>
+            <p>We will get back to you as soon as possible!</p>
+            <a href="index.html">HOME</a>
+        </div>
+    </div>
 
     <script src="main.js"></script>
 </body>

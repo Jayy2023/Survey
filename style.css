@@ -1,0 +1,136 @@
+/* Reset some default styles for consistency */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.survey {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.survey h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #007bff;
+}
+
+.option {
+    list-style: none;
+    padding: 0;
+    color: #333; /* Changed color to a darker shade for better contrast */
+}
+
+.option li {
+    margin-bottom: 8px; /* Increased spacing between options */
+    cursor: pointer;
+    padding: 5px 10px; /* Added some padding to options for better click area */
+    border-radius: 3px; /* Rounded corners for options */
+    transition: background-color 0.2s; /* Smooth transition for the hover effect */
+}
+
+.option li:hover {
+    background-color: #f1f1f1; /* Light gray background on hover */
+}
+
+/* Add some spacing between questions */
+.q1, .q2, .q3, .q4, .q5 {
+    margin-bottom: 30px; /* Increased spacing between questions */
+}
+
+/* Add some padding and border for better readability */
+.q1, .q2, .q3, .q4, .q5 {
+    padding: 20px; /* Increased padding for better spacing */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Style the header of each question */
+.q1 h3, .q2 h3, .q3 h3, .q4 h3, .q5 h3 {
+    font-size: 24px; /* Slightly increased font size for question headers */
+    margin-bottom: 20px; /* Increased spacing below question headers */
+}
+
+/* Add some styling for selected options */
+.option li.selected {
+    background-color: #007bff; /* Blue background for selected option */
+    color: #fff; /* White text color for selected option */
+    font-weight: bold;
+}
+
+/* Style the button to submit the survey */
+.submit-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px 24px; /* Increased padding for the submit button */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.2s; /* Smooth transition for hover effect */
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+/* Styling for the "Thank You" section */
+.end {
+    display: none;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.end h1 {
+    font-size: 30px;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.end p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.end a {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.2s;
+}
+
+.end a:hover {
+    background-color: #0056b3;
+}
